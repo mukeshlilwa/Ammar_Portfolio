@@ -21,24 +21,25 @@ const introdata = {
         second: "I break to improve.",
         third: "I protect experiences.",
     },
-    description: "I am a Senior Software Quality Assurance Engineer with over 6 years of experience, specializing in ensuring the highest quality standards through comprehensive testing methodologies. As an Associate Project Manager, I effectively manage cross-functional teams, ensuring timely delivery of projects with optimal results while maintaining clear communication and strong collaboration across all stakeholders.",
+    description: "I am a Senior Software Quality Assurance Engineer with over 5 years of experience, specializing in ensuring the highest quality standards through comprehensive testing methodologies. As an Associate Project Manager, I effectively manage cross-functional teams, ensuring timely delivery of projects with optimal results while maintaining clear communication and strong collaboration across all stakeholders.",
     your_img_url: myImage,
 };
 
 const dataabout = {
     title: "A bit about me",
-    aboutme: "I am a Senior Software Quality Assurance Engineer with over 6 years of experience, specializing in ensuring the highest quality standards through comprehensive testing methodologies. As an Associate Project Manager, I effectively manage cross-functional teams, ensuring timely delivery of projects with optimal results while maintaining clear communication and strong collaboration across all stakeholders.",
+    aboutme: "I am a Senior Software Quality Assurance Engineer with over 5 years of experience, specializing in ensuring the highest quality standards through comprehensive testing methodologies. As an Associate Project Manager, I effectively manage cross-functional teams, ensuring timely delivery of projects with optimal results while maintaining clear communication and strong collaboration across all stakeholders.",
 };
 const worktimeline = [
-    {
-        jobtitle: "Senior Software Quality Assurance Engineer",
-        where: "Droidor",
-        date: "2022 - Present",
-    },
     {
         jobtitle: "Associate Project Manager",
         where: "Droidor",
         date: "2023 - Present",
+        
+    },
+    {
+        jobtitle: "Senior Software Quality Assurance Engineer",
+        where: "Droidor",
+        date: "2022 - Present",
         
     },
     {
@@ -69,7 +70,15 @@ const skills = [
         value: 100,
     },
     {
-        name: "Automation Testing (Selenium, Cypress)",
+        name: "Mobile App Testing",
+        value: 100,
+    },
+    {
+        name: "Web Testing",
+        value: 100,
+    },
+    {
+        name: "Automation Testing (Katalon Studio)",
         value: 85,
     },
     {
@@ -81,8 +90,8 @@ const skills = [
         value: 95,
     },
     {
-        name: "JIRA",
-        value: 85,
+        name: "Project Management with Jira and Clickup",
+        value: 100,
     },
     {
         name: "Test Case Design",
@@ -97,10 +106,6 @@ const skills = [
         value: 98,
     },
     {
-        name: "CI/CD Integration (Jenkins)",
-        value: 83,
-    },
-    {
         name: "Risk Management",
         value: 80,
     }
@@ -113,16 +118,35 @@ const services = [
         description: "Comprehensive testing services including manual and automated testing, ensuring your software meets the highest quality standards before release.",
     },
     {
-        title: "Project Management & Coordination",
-        description: "Efficient project management using Agile and Scrum methodologies to ensure timely delivery and successful completion of software development projects.",
+        title: "User Acceptance Testing (UAT)",
+        description: "Collaborating with end-users to validate that the software meets their needs and expectations. We facilitate real-world testing scenarios to ensure the final product aligns with business goals.",
+    },
+    {
+        title: "Cross-Browser and Cross-Platform Testing",
+        description: "Ensuring consistent user experiences by testing across various browsers, devices, and operating systems, identifying and resolving compatibility issues.",
+    },
+    {
+        title: "Defect Tracking & Reporting",
+        description: "Utilizing advanced defect tracking tools to identify, document, and resolve issues effectively. Our detailed reporting ensures transparency and enables informed decision-making.",
+    },
+    {
+        title: "Exploratory Testing",
+        description: "Applying a human-centric approach to uncover edge cases and unexpected behaviors that automated tests may miss, enhancing overall quality.",
     },
     {
         title: "API Testing & Integration",
         description: "Ensuring seamless communication between systems with thorough API testing, guaranteeing smooth integration and functionality of third-party services.",
     },
     {
-        title: "Continuous Integration & Delivery (CI/CD)",
-        description: "Implementing CI/CD pipelines to automate testing and deployment processes, ensuring quicker and more reliable software releases.",
+        title: "Performance Optimization",
+        description: "Analyzing and optimizing software performance, including load testing, stress testing, and scalability assessments to ensure your application runs efficiently under varying conditions.",
+    },
+
+
+
+    {
+        title: "Project Management & Coordination",
+        description: "Efficient project management using Agile and Scrum methodologies to ensure timely delivery and successful completion of software development projects.",
     },
     {
         title: "Risk Management & Quality Control",
@@ -173,7 +197,7 @@ const dataportfolio = [{
 
 const contactConfig = {
     YOUR_EMAIL: "mikespike99@gmail.com",
-    YOUR_FONE: "+92-323-1489189",
+    YOUR_FONE: "+92-305-4444694",
     description: "Feel free to reach out for any inquiries or collaboration opportunities. I’m always open to discussing new projects and ideas. Let’s connect and bring your vision to life!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/

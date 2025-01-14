@@ -1,8 +1,24 @@
-.site__header {
+/* .site__header {
     top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-}
+} */
+.site__header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #0c0c0c; /* Default: Dark theme */
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Light theme */
+  [data-theme="light"] .site__header {
+    background-color: #ffffff; /* Light theme background */
+    color: #000000; /* Light theme text */
+  }
 
 .menu__button {
     color: var(--text-color);
