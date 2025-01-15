@@ -6,6 +6,7 @@ import vtTech from './assets/images/vettech.png';
 import vtFriends from './assets/images/vtfriends.png';
 import dvmCentral from './assets/images/dvm.png';
 import gervertUsa from './assets/images/GerUSA.png';
+import loyaltyApp from './assets/images/loyalty.png';
 
 
 const logotext = "AMMAR";
@@ -191,6 +192,12 @@ const dataportfolio = [{
         img: gervertUsa,
         description: "Large marketplace to buy Surgical Instruments in USA, We also Manufacture Instruments on demand.",
         link: "https://www.gervetusa.com/",
+    },
+
+    {
+        img: loyaltyApp,
+        description: "The White Label Loyalty SAAS helps restaurants drive customer loyalty with personalized rewards, seamless experiences, and advanced analytics.",
+        link: "https://play.google.com/store/apps/details?id=com.loyalty.ca",
     },
    
 ];
