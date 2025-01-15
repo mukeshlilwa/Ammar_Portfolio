@@ -34,6 +34,7 @@ export const ContactUs = () => {
         contactConfig.YOUR_TEMPLATE_ID,
         templateParams,
         '6LXvUUeHm9Da1DP5X'
+        
       )
       .then(
         (result) => {
