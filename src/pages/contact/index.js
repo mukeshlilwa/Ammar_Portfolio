@@ -5,7 +5,6 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
-
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
     email: "",
@@ -34,7 +33,7 @@ export const ContactUs = () => {
         contactConfig.YOUR_TEMPLATE_ID,
         templateParams,
         '6LXvUUeHm9Da1DP5X'
-        
+
       )
       .then(
         (result) => {
