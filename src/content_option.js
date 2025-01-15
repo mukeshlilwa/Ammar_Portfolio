@@ -78,7 +78,7 @@ const skills = [
         value: 100,
     },
     {
-        name: "Automation Testing (Katalon Studio)",
+        name: "Automation Testing (Katalon Studios)",
         value: 85,
     },
     {
