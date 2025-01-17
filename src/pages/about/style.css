@@ -44,6 +44,19 @@
     font-style: italic;
     color: var(--text-color);
 }
+@media (max-width: 768px) {
+    .progress-title {
+        margin-top: 30px; /* Increased margin for smaller screens */
+        font-size: 14px; /* Optional: reduce font size for better fit */
+    }
+
+    .progress .progress-value {
+        /* top: -40px;  */
+        font-size: 14px;
+        top: -20px;
+
+    }
+}
 
 @-webkit-keyframes animate-positive {
     0% {

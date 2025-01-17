@@ -40,7 +40,7 @@ export const ContactUs = () => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "Success! Thank You for your messege",
+            alertmessage: "Success! Thank You for your message",
             variant: "success",
             show: true,
           });
